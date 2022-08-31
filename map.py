@@ -2,7 +2,7 @@ import requests
 import test
 import os
 
-#создаем карту
+#создаем картуasdasdasdadsa
 geocoder_api_server = "http://static-maps.yandex.ru/1.x/"
 def get_map(x, y, zoom, filename, slovar, size=450, map_type="map"):
     params = {"l": map_type,
