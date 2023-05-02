@@ -1,6 +1,6 @@
 from opensky_api import OpenSkyApi
 
-def test():
+def fetch():
     #объект всех самолетов
     api = OpenSkyApi()
     count = []

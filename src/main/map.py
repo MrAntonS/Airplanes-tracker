@@ -1,5 +1,5 @@
 import requests
-import test
+import OpenSkyAPICaller
 import os
 
 #создаем картуasdasdasdadsa
