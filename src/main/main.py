@@ -48,7 +48,7 @@ while running:
 
         if event.type == pygame.KEYUP:
             # Сделано для проверки координат
-            # Масштаб
+            # Масштаб(Zoom)
             if event.key == pygame.K_PLUS:
                 if x[2] != 20:
                     x[2] += 1
@@ -56,7 +56,7 @@ while running:
             if event.key == pygame.K_MINUS:
                 if x[2] != 0:
                     x[2] -= 1
-            # Перемещение камеры
+            # Перемещение камеры(Camera Movement)
             if event.key == pygame.K_UP:
                 if x[1] != 73:
                     x[1] += 1
